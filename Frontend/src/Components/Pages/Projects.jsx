@@ -10,7 +10,7 @@ const Projects = () => {
 
   const getProjects = async () => {
     try {
-      const res = await axios.get("https://portfolio-fute.onrender.com//getproject");
+      const res = await axios.get("https://portfolio-fute.onrender.com/getproject");
       setProjData(res.data); 
       setLoading(false);
     } catch (err) {

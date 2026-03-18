@@ -8,7 +8,7 @@ const Certification = () => {
 
   const getCertifications = async () => {
     try {
-      const res = await axios.get("https://portfolio-fute.onrender.com//getcertification");
+      const res = await axios.get("https://portfolio-fute.onrender.com/getcertification");
       if (res.data.data) {
         setCertData(res.data.data);
       } else {

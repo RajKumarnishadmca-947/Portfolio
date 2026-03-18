@@ -9,7 +9,7 @@ const Skills = () => {
  
   const getSkills = async () => {
     try {
-      const res = await axios.get("https://portfolio-fute.onrender.com//getskills");
+      const res = await axios.get("https://portfolio-fute.onrender.com/getskills");
       setSkillsData(res.data.data); 
       setLoading(false);
     } catch (err) {
