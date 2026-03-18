@@ -23,6 +23,10 @@ mongoose.connect(process.env.MONGO_URL).then(()=>{
 })
 
 //Routes
+app.get("/", (req, res) => {
+    res.send("Backend is running 🚀");
+});
+
 app.use("/",contactRouter)
 app.use("/",skillrouter)
 app.use("/",projectRouter)
