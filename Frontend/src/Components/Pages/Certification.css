@@ -1,0 +1,75 @@
+/* Container */
+.cert-container {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Title */
+.cert-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #dbdcde;
+}
+
+/* Grid Layout */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.cert-card {
+  background: #eceaea;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover Effect */
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title inside card */
+.cert-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Text */
+.cert-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Button */
+.cert-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Button Hover */
+.cert-btn:hover {
+  background: #0056b3;
+}
+
+/* Error */
+.cert-error {
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}

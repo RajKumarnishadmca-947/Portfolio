@@ -1,0 +1,485 @@
+/* HOME CSS */
+
+.home-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  min-height:70vh;
+  padding:60px;
+  background:linear-gradient(120deg,#0a0a2a,#15002c);
+  color:white;
+  gap:40px;
+}
+
+/* Left section */
+
+.home-left{
+  max-width:500px;
+}
+
+.welcome{
+  letter-spacing:2px;
+  font-size:14px;
+  color:#ccc;
+}
+
+.name{
+  color:#2ddcff;
+}
+
+.role span{
+  color:#2d96ff;
+}
+
+.desc{
+  margin-top:15px;
+  color:#ccc;
+}
+
+.buttons{
+  margin-top:25px;
+}
+
+.btn1{
+  background:#166ab8;
+  border:none;
+  padding:12px 25px;
+  margin-right:15px;
+  color:white;
+  border-radius:25px;
+  cursor:pointer;
+}
+.btn2:hover,.btn1:hover{
+  background:#0f4f8a;
+  transform:scale(1.05);
+}
+
+.btn2{
+  background:transparent;
+  border:2px solid #2d65ff;
+  padding:10px 25px;
+  color:white;
+  border-radius:25px;
+  cursor:pointer;
+}
+
+/* Right section */
+
+.home-right{
+  display:flex;
+  justify-content:center;
+}
+
+.profile-img{
+  width:320px;
+  height:380px;
+  object-fit:cover;
+  border-radius:25px;
+  border:4px solid #315197;
+}
+
+
+/* ----------------------- */
+/* Tablet Responsive */
+/* ----------------------- */
+
+@media (max-width: 992px){
+
+  .home-container{
+    padding:40px;
+  }
+
+  .profile-img{
+    width:260px;
+    height:320px;
+  }
+
+}
+
+
+/* ----------------------- */
+/* Mobile Responsive */
+/* ----------------------- */
+
+@media (max-width: 768px){
+
+  .home-container{
+    flex-direction:column;
+    text-align:center;
+    padding:30px 20px;
+  }
+
+  .home-left{
+    max-width:100%;
+  }
+
+  .buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  .profile-img{
+    width:220px;
+    height:260px;
+    margin-top:20px;
+  }
+
+}
+
+
+/* ----------------------- */
+/* Small Mobile */
+/* ----------------------- */
+
+@media (max-width: 480px){
+
+  .welcome{
+    font-size:12px;
+  }
+
+  .profile-img{
+    width:180px;
+    height:220px;
+  }
+
+  .btn1,
+  .btn2{
+    padding:10px 18px;
+    font-size:12px;
+  }
+
+}
+/* --------------------------------------------------- */
+
+/* Css for Register, Login and Contact Page */
+/* Main Container */
+
+.contactleft{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  background-color: #dddddd;
+  padding: 25px;
+  border-radius: 10px;
+  height: 60vh;
+  width: 80%;
+  color: rgb(26, 25, 25);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.text p{
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.text span{
+  font-weight: bold;
+  color: #00adb5;
+}
+
+
+.contactcontainer{
+display:flex;
+gap:40px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.contactleft{
+flex:1;
+}
+
+.contactright{
+flex:1;
+}
+
+.contactright{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:80vh;
+  padding:20px;
+}
+
+
+/* Form Box */
+
+.contactright form{
+  background:white;
+  padding:35px;
+  border-radius:10px;
+  width:100%;
+  max-width:420px;
+  box-shadow:0px 5px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Heading */
+
+h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#dfe6e9;
+}
+
+
+/* Form Fields */
+
+.contactright form div{
+  margin-bottom:15px;
+}
+
+.contactright label{
+  font-weight:600;
+  font-size:14px;
+}
+
+.contactright input{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  outline:none;
+  font-size:14px;
+}
+
+
+/* Button */
+
+#btn{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  background:#2d65ff;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#btn:hover{
+  background:#1a4ed8;
+}
+
+
+/* Tablet Responsive */
+
+@media (max-width:768px){
+
+  .contactright form{
+    padding:25px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width:480px){
+
+  .contactright{
+    padding:15px;
+  }
+
+  .contactright form{
+    padding:20px;
+  }
+
+  input{
+    font-size:13px;
+  }
+
+  #btn{
+    font-size:14px;
+    padding:10px;
+  }
+
+}
+/* --------------------------------------------------- */
+/* Css for About me page */
+
+.about-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:50px;
+  padding:70px;
+  background:#0a0a2a;
+  color:white;
+}
+
+.about-left{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.about-img{
+  width:320px;
+  height:360px;
+  object-fit:cover;
+  border-radius:20px;
+  border:4px solid #054586;
+}
+
+.about-right{
+  flex:1;
+}
+
+.about-right h1{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.about-right span{
+  color:#2ddcff;
+  font-weight:bold;
+}
+
+.about-right p{
+  margin-bottom:15px;
+  color:#ccc;
+  line-height:1.6;
+}
+
+.about-skills{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+  margin-top:20px;
+}
+
+.about-skills div{
+  background:#14144a;
+  padding:15px;
+  border-radius:10px;
+}
+/* responsive */
+@media(max-width:900px){
+
+.about-container{
+  flex-direction:column;
+  text-align:center;
+  padding:50px 20px;
+}
+
+.about-img{
+  width:250px;
+  height:300px;
+}
+
+.about-skills{
+  grid-template-columns:1fr;
+}
+
+}
+/* ------------------------------------------------------------- */
+/* SKILLS page CSS */
+.skills-container{
+  padding:80px 60px;
+  background:#151549;
+  color:white;
+  text-align:center;
+}
+
+.skills-title{
+  font-size:40px;
+  margin-bottom:40px;
+  color:#89bdc7;
+}
+
+.skills-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.skill-card{
+  background:#1b1b7d;
+  padding:25px;
+  border-radius:12px;
+  transition:0.3s;
+}
+
+.skill-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0px 8px 25px rgba(45,150,255,0.4);
+}
+
+.skill-card h2{
+  margin-bottom:15px;
+  color:#cddae7;
+}
+
+.skill-card ul{
+  list-style:none;
+  padding:0;
+}
+
+.skill-card li{
+  margin:8px 0;
+  color:#ccc;
+}
+/* responsice css */
+@media(max-width:900px){
+
+.skills-grid{
+  grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+.skills-container{
+  padding:60px 20px;
+}
+
+.skills-grid{
+  grid-template-columns:1fr;
+}
+
+.skills-title{
+  font-size:30px;
+}
+
+}
+/* ----------------------------------------- */
+/*  ALERT MSG CSS */
+.alert-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-size: 14px;
+  z-index: 1000;
+  animation: slideIn 0.4s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#btn{
+    padding: 5px;
+    border-radius: 5px;
+    border-style:none ;
+    background-color: rgb(12, 84, 172);
+    color: white;
+}
+body{
+    background-color: rgb(5, 13, 97);
+}
