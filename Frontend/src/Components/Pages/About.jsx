@@ -10,7 +10,7 @@ const About = () => {
 
   let getSkill=async()=>{
     try{
-      let res=await axios.get("http://localhost:5001/getedu");
+      let res=await axios.get("https://portfolio-fute.onrender.com/getedu");
       setSkillsData(res.data.data)
     }catch{
       setError("Failed to fetching Skills")

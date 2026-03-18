@@ -13,7 +13,7 @@ const Contact = () => {
   const sendmsg=async(e)=>{
     e.preventDefault();
     try {
-      const res=await axios.post("http://localhost:5001/addcontact",msg)
+      const res=await axios.post("https://portfolio-fute.onrender.com/addcontact",msg)
       alert(res.data.msg)
       setMsg({name:"",email:"",phone:"",message:""})
     } catch(error){
