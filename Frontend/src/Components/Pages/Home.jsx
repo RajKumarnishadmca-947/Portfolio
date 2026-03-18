@@ -1,4 +1,4 @@
-
+import React from "react";
 import Skills from "../Pages/Skills"
 import Projects from "../Pages/Projects"
 import About from "../Pages/About"

@@ -1,4 +1,4 @@
-import {useState} from "react"
+import React,{useState} from "react"
 import {FaEnvelope,FaPhone,FaLinkedin,FaGithub} from "react-icons/fa";
 import "../../App.css"
 import axios from "axios"
